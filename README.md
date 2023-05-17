@@ -5,7 +5,7 @@ This website can be found at [haiderjirrie.com](https://haiderjirrie.com).
 ## React
 
 To facilitate future expansion, I chose React because of its reusable component structure.\
-I learned to work with React during a semester webdevelopment.
+I learned to work with React during a semester about webdevelopment.
 
 ## Tailwind
 
