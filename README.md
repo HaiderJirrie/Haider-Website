@@ -1,24 +1,30 @@
-# Haider's persoonlijke website: CV
+# Haider's Personal Website: CV & Portfolio
 
-De website is te vinden op [haiderjirrie.com](https://haiderjirrie.com).
+This website can be found at [haiderjirrie.com](https://haiderjirrie.com).
 
-## Installatie
+## Instalation
 
-NodeJS (inclusief npm) is vereist om deze webapplicatie te kunnen runnen.
+Node.js (including npm) is required to run this web application.
 
-Voer de commando `npm i` in de root folder uit om alle node modules te installeren.\
-Om de appilicatie op te starten gebruik je `npm start`.
+Please execute the command `npm i` in the root folder to install all the necessary Node modules.\
+To start the application, use `npm start`.
+
+Tailwind heeft het gehele CSS proces versneld, ik ben zeker van plan om het weer te gebruiken in de toekomst.
 
 ## React
 
-Om toekomstige uitbreiding mogelijk te maken, heb ik voor React gekozen vanwege de herbruikbare componentstructuur.\
-Ik heb leren werken met React tijdens een semester webdevelopment.
+To facilitate future expansion, I chose React because of its reusable component structure.\
+I learned to work with React during a semester webdevelopment.
 
 ## Tailwind
 
-Dit was mijn eerste project waar ik Tailwind heb gebruikt voor het stylen van HTML.\
-Tailwind heeft het gehele CSS proces versneld, ik ben zeker van plan om het weer te gebruiken in de toekomst.
+This is my first project where I used Tailwind to style HTML.\
+I plan to use Tailwind more often because it allows me to quickly create good looking layouts which is more enjoyable.
 
 ## Netlify
 
-Deze webapp wordt automatisch via [Netlify](https://www.netlify.com/) gedeployed vanuit de main branch van deze repository.
+This web app is automatically deployed via [Netlify](https://www.netlify.com/) from the main branch of this repository.
+
+
+
+
