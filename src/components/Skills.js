@@ -8,17 +8,15 @@ function Skills() {
   return (
     <>
       <div className="flex justify-center">
-        <h3 className="text-3xl font-bold">Alles op een rijtje</h3>
+        <h3 className="text-3xl font-bold">Everything laid out</h3>
       </div>
       <div className="xl:flex gap-10 justify-center mx-auto mb-4">
         <SkillCard
-          title="Tijdens mijn opleiding"
+          title="During my studies"
           image={Book}
           gradientFrom="#93c5fd"
-          text="Tijdens mijn opleiding heb ik de mogelijkheid gehad om mij te
-            verdiepen in verschillende onderwerpen binnen het brede vakgebied
-            van ICT. Hieronder som ik enkele onderwerpen op waar veel nadruk op
-            is gelegd."
+          text="
+          During my studies, I had the opportunity to delve into various topics within the broad field of ICT. Below, I list some of the subjects that received significant emphasis"
           bulletpoints={[
             "Programming",
             "Web development",
@@ -28,14 +26,12 @@ function Skills() {
         />
 
         <SkillCard
-          title="(Programmeer) Talen en Frameworks"
+          title="Programming languages and Frameworks"
           image={Tools}
           gradientFrom="#86efac"
-          text="Ik ben goed bekend met object georiënteerde programmeertalen, ook
-          heb ik ervaring opgedaan met het werken met relationele databases.
-          Verder heb ik een interesse in full-stack (web) development."
+          text="I am well acquainted with object-oriented programming languages, and I have gained experience working with relational databases. Additionally, I have a keen interest in full-stack (web) development."
           bulletpoints={[
-            "Agile & Scrum",
+            "Java",
             "C# (.NET)",
             "SQL",
             "HTML, CSS, Javascript (React)",
@@ -43,14 +39,13 @@ function Skills() {
         />
 
         <SkillCard
-          title="Inzichten als Software Engineer"
+          title="Insights as a Software Engineer"
           image={Puzzle}
           gradientFrom="#fca5a5"
-          text="Ik hecht veel belang aan de vaardigheid van een software engineer om
-          goed te kunnen samenwerken binnen een team. Ik heb geleerd over
-          Agile en ben bekend met technieken om code onderhoudbaar te houden."
+          text="
+          I place great importance on the ability of a software engineer to collaborate effectively within a team. I have learned about Agile methodologies and I am familiar with techniques for maintaining code maintainability."
           bulletpoints={[
-            "Java",
+            "Agile & Scrum",
             "Test Driven Development",
             "OOP principles & Design patterns",
             "Version control",

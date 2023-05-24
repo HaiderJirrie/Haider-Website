@@ -7,33 +7,33 @@ function Experience() {
     <div className="xl:flex gap-14 justify-center mx-auto mb-4">
       <div className="pt:-0 md:pt-10">
         <h3 className="text-3xl text-center font-bold pb-0 md:pb-5">
-          Opleidingen
+          Education
         </h3>
         <ExperienceCard
-          timespan="September 2021 - Juni 2025"
-          name="De Haagse Hogeschool"
+          timespan="September 2021 - June 2025"
+          name="The Hague University of Applied Sciences"
           gradientFrom="#65a30d"
           gradientTo="#84cc16"
           image={HHS}
           location="Den Haag"
           title="HBO-ICT, Software Engineering"
-          text="Op dit moment ben ik een tweedejaars HBO-ICT student en heb ik mijn propedeuse behaald met een gemiddeld cijfer van 7,6. Tijdens mijn eerste jaar heb ik gekozen voor de differentiatie Software Engineering. Ik zie mezelf als een zeer ambitieuze student met een grote passie voor het vak."
+          text="At the moment, I am a second-year HBO-ICT student and I have obtained my propaedeutic diploma. During my first year, I chose the Software Engineering specialization. I consider myself a highly ambitious student with a great passion for the field."
         />
       </div>
 
       <div className="pt-0 md:pt-10">
         <h3 className="text-3xl text-center font-bold pb-0 md:pb-5">
-          Werkervaring
+          Work experience
         </h3>
         <ExperienceCard
-          timespan="Februari 2020 - Heden"
+          timespan="February 2020 - Present"
           name="Albert heijn"
           gradientFrom="#0284c7"
           gradientTo="#0ea5e9"
           image={AH}
           location="Hoofddorp"
           title="Functie Cassiere B"
-          text="Als service medewerker is een sociale en proactieve instelling van belang. Ik ben onlangs gepromoveerd tot Cassiere B, wat meer verantwoordelijkheden met zich meebrengt, zoals het assisteren van klanten achter de servicebalie en het zelfstandig openen en sluiten van de winkel."
+          text="As a service representative, having a social and proactive attitude is important. I was recently promoted to Cashier B, which comes with additional responsibilities such as assisting customers at the service desk and independently opening and closing the store."
         />
       </div>
     </div>
