@@ -43,7 +43,7 @@ function Experience() {
         gradientTo="#0ea5e9"
         image={AdHoc}
         title="Developed a webapp"
-        text={ <p>I had the oppurtunity to create a webapplication for a small IT businnes, <a className=" underline font-bold" href="https://adhocit.nl/" target="_blank">Ad Hoc</a>. I used ReactJS and Tailwind as CSS framework for the frontend, I also intergrated my own webapi alowing vistors to  sending emails to the company through forms. I used .NET for the backend.</p>}/>
+        text={ <p>I had the oppurtunity to create a webapplication for a small IT businnes, <a className=" underline font-bold" href="/https://www.adhocit.nl/" target="_blank" rel="noreferrer">Ad Hoc</a>. I used ReactJS and Tailwind as CSS framework for the frontend, I also intergrated my own webapi alowing vistors to  sending emails to the company through forms. I used .NET for the backend.</p>}/>
       </div>
     </div>
   );
