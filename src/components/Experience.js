@@ -1,5 +1,6 @@
 import HHS from "../resources/hhs.jpg";
-import AH from "../resources/ah.png";
+import AdHoc from "../resources/AdHoc.png";
+
 import ExperienceCard from "./ExperienceCard";
 
 function Experience() {
@@ -25,7 +26,7 @@ function Experience() {
         <h3 className="text-3xl text-center font-bold pb-0 md:pb-5">
           Work experience
         </h3>
-        <ExperienceCard
+        {/* <ExperienceCard
           timespan="February 2020 - Present"
           name="Albert heijn"
           gradientFrom="#0284c7"
@@ -34,7 +35,15 @@ function Experience() {
           location="Hoofddorp"
           title="Functie Cassiere B"
           text="As a service representative, having a social and proactive attitude is important. I was recently promoted to Cashier B, which comes with additional responsibilities such as assisting customers at the service desk and independently opening and closing the store."
-        />
+        /> */}
+        <ExperienceCard
+        timespan="May 2023"
+        name="Adhoc IT Services"
+        gradientFrom="#0284c7"
+        gradientTo="#0ea5e9"
+        image={AdHoc}
+        title="Developed a webapp"
+        text={ <p>I had the oppurtunity to create a webapplication for a small IT businnes, <a className=" underline font-bold" href="https://adhocit.nl/" target="_blank">Ad Hoc</a>. I used ReactJS and Tailwind as CSS framework for the frontend, I also intergrated my own webapi alowing vistors to  sending emails to the company through forms. I used .NET for the backend.</p>}/>
       </div>
     </div>
   );
