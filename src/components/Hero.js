@@ -21,11 +21,11 @@ function Hero() {
           Below you will find my CV, and you can also contact me via LinkedIn or
           email.
         </p>
-        <a href="https://haiderjirrie.com/CV Haider Jirrie.pdf" download>
+        {/* <a href="https://haiderjirrie.com/CV Haider Jirrie.pdf" download> */}
           <button className=" text-lg cursor-pointer mt-4 px-4 bg-gradient-to-tr from-sky-500 to-yellow-300 text-white font-bold rounded-md hover:scale-125 transition ease-in-out duration-300">
             Download CV
           </button>
-        </a>
+        {/* </a> */}
       </div>
       <div className="max-w-xs gap-14 flex justify-center mx-auto mb-24">
         <SocialIcon
